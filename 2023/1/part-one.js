@@ -1,15 +1,8 @@
-/////////////// PART ONE
-
-// 1° assign the HTML element to a temp variable at console in DevTool
-var temp1;
-
-let allString = temp1.innerText
-let array = allString.split("\n")
-array.pop()
+import inputArray from "./input.js"
 
 let total = 0
 
-array.forEach(str => {
+inputArray.forEach(str => {
   let matches = str.match(/\d/g);
   let result;
 
@@ -20,8 +13,10 @@ array.forEach(str => {
     result = Number(`${matches[0]}${matches[matches.length - 1]}`)
     total += result
   }
-  // console.log(result)
-
 })
 
-console.log("O total eh:" + total)
+function result(){
+  console.log("The total is: " + total)
+}
+
+export default result;
