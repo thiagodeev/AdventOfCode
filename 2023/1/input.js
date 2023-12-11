@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 
-const inputArray = fs.readFileSync("./input.txt", 'utf8', (err, data) => {
+const input = fs.readFileSync("./input.txt", 'utf8', (err, data) => {
   if (err) {
     console.error(err);
     console.error("err");
@@ -11,4 +11,4 @@ const inputArray = fs.readFileSync("./input.txt", 'utf8', (err, data) => {
 .trim()
 .split("\n");
 
-export default inputArray;
+export default input;
