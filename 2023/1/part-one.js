@@ -21,8 +21,4 @@ function findResult(input){
 
 let total = findResult(input)
 
-function result(){
-  console.log("The total is: " + total)
-}
-result()
-export {total, result};
+console.log("Part-one: The total is: " + total)

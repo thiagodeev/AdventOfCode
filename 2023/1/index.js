@@ -1,3 +1,2 @@
-import {result} from "./part-one.js"
-
-console.log('hello')
+import "./part-one.js"
+import "./part-two.js"
