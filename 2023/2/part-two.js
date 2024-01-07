@@ -10,18 +10,9 @@ function getPower(game){
   let blue = 0;
 
   for(let i = 0; i < game.length; i++){
-    if(game[i].red > red){
-      red = game[i].red;
-    }
-     
-    if(game[i].green > green){
-      green = game[i].green;
-    }
-     
-    if(game[i].blue > blue){
-      blue = game[i].blue;
-    }
-     
+    red = Math.max(game[i].red ? game[i].red : 0, red)
+    green = Math.max(game[i].green ? game[i].green : 0, green)
+    blue = Math.max(game[i].blue ? game[i].blue : 0, blue)
   }
   return red * green * blue
 }
