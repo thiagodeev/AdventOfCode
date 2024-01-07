@@ -41,7 +41,6 @@ function findResult(input){
   for(let i = 0; i < input.length; i++){
     if(isPossible(input[i])){
       total += (i + 1)
-      console.log('Game ' + (i + 1) + ' success. Total: ' + total)
     }
   }
   

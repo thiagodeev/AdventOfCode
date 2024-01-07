@@ -1,3 +1,7 @@
+| Part-one | Part-two |
+| -- | -- |
+| 55029 | 55686 |
+
 ## --- Day 1: Trebuchet?! ---
 Something is wrong with global snow production, and you've been selected to take a look. The Elves have even given you a map; on it, they've used stars to mark the top fifty locations that are likely to be having problems.
 
