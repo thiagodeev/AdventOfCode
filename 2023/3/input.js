@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 
-/** @type {string[][]} */
+/** @type {string[]} */
 const input = fs.readFileSync("./input.txt", 'utf8', (err, data) => {
   if (err) {
     console.error(err);
@@ -11,6 +11,7 @@ const input = fs.readFileSync("./input.txt", 'utf8', (err, data) => {
 })
 .trim()
 .split("\n")
-.map((row)=> row.split(''))
+// .map((row)=> row.split(''))
 
+// console.log(input)
 export default input;
